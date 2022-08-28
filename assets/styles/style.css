@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.header {
+    background-image: url("../imgs/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backface-visibility: visible;
+    width: 100%;
+    min-height: 88px;
+    padding: 10% 0px;
+    vertical-align: middle;
+    box-shadow: 0px 0px 8px black;
+}
+
+.nav {
+    background-color: #EAEDED;
+    padding: 3% 3%;
+    box-shadow: 0px 0px 16px black;
+}
+
+.main {
+
+    background-color: #EAEDED;
+    padding: 3% 0px;
+    box-shadow: 0px 0px 16px black;
+}
+
+.footer {
+    background-color: #7DCEA0;
+    padding: 3% 3%;
+    box-shadow: 0px 0px 5px black;
+    text-align: center;
+}
+
+.article {
+    background-color: #7DCEA0;
+    box-shadow: 0px 0px 5px black;
+    width: 70%;
+    padding: 24px;
+    margin: 48px auto 48px auto;
+    border-radius: 32px;
+    vertical-align: middle;
+    transition-duration: 0.6s;
+}
+
+.article:hover {
+    background-color: #ABEBC6;
+    cursor: pointer;
+    box-shadow: 0px 0px 16px black;
+}
+
+.title {
+    color: #D5F5E3;
+    font-size: 96px;
+    margin: 0px 0px 0px 10%;
+    text-shadow: 0px 0px 16px black;
+}
+
+
+.fotoDino {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.aizquierda {
+    width: 35%;
+    min-width: 200px;
+    display: inline-block;
+}
+
+.aderecha {
+    margin-left: 16px;
+    margin-right: auto;
+    padding: 0px 16px 0px 0px;
+    width: 60%;
+    vertical-align: top;
+    text-align: justify;
+    display: inline-block;
+    height: 226px;
+    overflow: hidden;
+
+}
+
+.aderecha:hover {
+    height: auto;
+
+}
+
+.dinoTexto {
+    background: linear-gradient(black 29%, #7DCEA0 40% 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    min-height: 400px;
+    transition-duration: 0.6s;
+}
+
+.dinoTexto:hover {
+    background: linear-gradient(#7DCEA0, #7DCEA0, #7DCEA0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: black;
+}
+
+.aderecha .dinoName {
+    font-size: 24px;
+    margin-top: 0px;
+}
